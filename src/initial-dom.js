@@ -25,7 +25,7 @@ const initialDomLoad = () => {
     const searchFormElements = (() => {
         const input = document.createElement('input');
         input.type = 'text';
-        input.id = 'search-form-input';
+        input.id = 'search-input';
         input.name = 'search-form-input';
         input.placeholder = 'Please enter a city!';
         searchForm.appendChild(input);
